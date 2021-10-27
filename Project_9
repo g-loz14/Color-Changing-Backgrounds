@@ -1,0 +1,26 @@
+var box = createSprite(200,200,30,30);
+box.shapeColor = "black"
+function draw() {
+ if (keyDown(LEFT_ARROW)) 
+  {
+    background("blue");
+    
+  }
+ 
+    if (keyIsDown(UP_ARROW)) 
+  {
+    background("yellow");
+   
+  }
+
+  if (keyDown(DOWN_ARROW)) 
+  {
+    background("green");
+  }
+if(keyDown(RIGHT_ARROW))
+{
+  background("red")
+}
+  
+  drawSprites();
+} 
